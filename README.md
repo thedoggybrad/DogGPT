@@ -7,7 +7,7 @@ ChatGPT is boring. I want a dog to answer my questions. So I built DogGPT!
 Try DogGpt [thedoggybrad.github.io/dogpt/](https://thedoggybrad.github.io/dogpt/)
 
 ## How?
-The "DogGPT' is a fork of the popular "CatGPT". 
+The "DogGPT' is a fork of the popular "CatGPT". After forking, I changes all the references to a cat to a dog (atleast to those visible in the chat). Then, I introduce some improvements to it.
 
 ## Why?
 I made this site for fun, by forking "CatGPT". I was just thinking on what will happen if I change all references to a dog. And, this is the result.
