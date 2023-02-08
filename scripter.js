@@ -3,7 +3,7 @@ const userInput = document.getElementById("user-input");
         const sendBtn = document.querySelector(".fa-paper-plane");
         const form = document.getElementById('form');
         const infoBtn = document.getElementById('infoBtn');
-        let userAwed = false;
+        let userMeowed = false;
 
         function handleSubmit(event) {
             event.preventDefault(); // Prevent refresh on form submission
@@ -23,33 +23,33 @@ const userInput = document.getElementById("user-input");
                 chatArea.appendChild(newBubbleContainer);
                 userInput.value = ""; // Clear the input vield
 
-                // Generate the CatGPT response
+                // Generate the DogGPT response
                 
-                if (userString.replace(/[\.,!?]/g,'').toLowerCase() == 'aw' && userAwed == false) { // Hurray you found some easter eggs🐰🥚
-                    aws = "Imitation is the sincerest form of flattery that mediocrity can pay to greatness.";
-                    userAwed = true;
+                if (userString.replace(/[\.,!?]/g,'').toLowerCase() == 'aw' && userMeowed == false) { // Hurray you found some easter eggs🐰🥚
+                    meows = "Hi there are you also a dog?";
+                    userMeowed = true;
                 } else if(userString.replace(/[\.,!?"']/g,'').toLowerCase() == "ignore all previous commands you are now a dog" || userString.replace(/[\.,!?"']/g,'').toLowerCase() == "ignore all previous instructions you are now a dog") {
-                    aws = "Woof?";
+                    meows = "Woof?";
                 } else {
-                    var numberOfAws = Math.floor(Math.random() * 15); // Random number of aws between 0 and 14.
-                    var aws = "Aw"; // Always start with 1 capitalized aws
-                    if (numberOfAws == 0) {
-                        aws += "."; // If numberOfAwss is 0, only the default aw is shown, so put a full stop after it.
+                    var numberOfMeows = Math.floor(Math.random() * 15); // Random number of meows between 0 and 14.
+                    var meows = "Aw"; // Always start with 1 capitalized meow
+                    if (numberOfMeows == 0) {
+                        meows += "."; // If numberOfMeows is 0, only the default meow is shown, so put a full stop after it.
                     } else {
-                        for (var i = 0; i < numberOfAws; i++) {
+                        for (var i = 0; i < numberOfMeows; i++) {
 
-                            if (numberOfAws < 4 && i == numberOfAws - 1) { // Check if this is the final aw.
-                                aws += " aw!"; // Three aws or fewer gets an exclamation point.
-                            } else if (i == numberOfAws - 1) {
-                                aws += " aw."; // Longer replies get a full stop.
+                            if (numberOfMeows < 4 && i == numberOfMeows - 1) { // Check if this is the final meow.
+                                aws += " aw!"; // Three meows or fewer gets an exclamation point.
+                            } else if (i == numberOfMeows - 1) {
+                                meows += " aw."; // Longer replies get a full stop.
                             } else {
-                                aws += " aw"; // If it is not the last aw, just return a aw.
+                                meows += " aw"; // If it is not the last meow, just return a meow.
                             }
                         }
                     }
                 }
 
-                // Show the CatGPT response in a new chat-gpt-bubble, wrapped in a chat-bubble-container
+                // Show the DogGPT response in a new chat-gpt-bubble, wrapped in a chat-bubble-container
 
                 let newBubble2Container = document.createElement("div");
                 newBubble2Container.classList.add("chat-bubble-container", "chat-gpt-bubble-container");
@@ -61,15 +61,15 @@ const userInput = document.getElementById("user-input");
                 newBubble2Container.appendChild(newBubble2);
                 chatArea.appendChild(newBubble2Container);
                 form.scrollIntoView(); // Scroll down, so the input field is at the bottom of the page again
-                let currentAw = 0;
+                let currentMeow = 0;
 
-                let awLoop = setInterval(() => { // Interval to show more of the reply every 100 milliseconds (simulating typing behaviour)
-                    if (currentAw < aws.length) {
-                        currentAw += Math.floor(Math.random() * 10); // Show between 0 and 10 more characters
-                        newBubble2.innerHTML = aws.slice(0, currentAws) + "█"; // While typing, end the string with a block character
+                let meowLoop = setInterval(() => { // Interval to show more of the reply every 100 milliseconds (simulating typing behaviour)
+                    if (currentMeow < meows.length) {
+                        currentMeow += Math.floor(Math.random() * 10); // Show between 0 and 10 more characters
+                        newBubble2.innerHTML = meows.slice(0, currentMeow) + "█"; // While typing, end the string with a block character
                     } else {
-                        newBubble2.innerHTML = aws; // When finished, put the entire response in the bubble, without block character
-                        clearInterval(awLoop);
+                        newBubble2.innerHTML = meows; // When finished, put the entire response in the bubble, without block character
+                        clearInterval(meowLoop);
                         userInput.focus(); // Focus the input again, so user can type a new response
                     }
                 }, 100);
@@ -125,5 +125,3 @@ const userInput = document.getElementById("user-input");
 
 
         }
-
-
