@@ -73,7 +73,15 @@
    <script src="https://cdn.jsdelivr.net/gh/thedoggybrad/dogpt@master/dogsound.js"></script>
     <iframe src="https://cdn.jsdelivr.net/gh/thedoggybrad/dogpt@master/dog.mp3" allow="autoplay" style="display:none" id="iframeAudio">
     </iframe> 
-
+<script>
+      var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+  if (!isChrome){
+      $('#iframeAudio').remove()
+  }
+  else {
+      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
+  }
+    </script>
   
 </body>
 
