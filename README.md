@@ -2,8 +2,8 @@
 ChatGPT is great and even passes a lot of exams worldwide. But ChatGPT is boring.
 So, I want a dog to answer my questions. So here is DogGPT.
 <br>
-Enter the doggy-verse and experience the behavior and answer of our super smart AI-powered dog
-.Then, ask some questions to the dog and make sure to enjoy your irritation.
+Enter the doggy-verse and experience the behavior and answer of our super smart AI-powered dog.
+Then, ask some questions to the dog and make sure to enjoy your irritation.
 
 ## Demo
 Try DogGPT [thedoggybrad.github.io/dogpt/](https://thedoggybrad.github.io/dogpt/)
