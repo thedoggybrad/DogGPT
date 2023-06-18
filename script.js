@@ -25,10 +25,8 @@ const userInput = document.getElementById("user-input");
 
                 // Generate the DogGPT response
                 
-                if (userString.replace(/[\.,!?]/g,'').toLowerCase() == 'aw' && userMeowed == false) { // Easter egg 1🐰🥚
-                    meows = "Aw aw aw. Are you a dog? or just imitating me?";
-                    userMeowed = true;
-                } else if(userString.replace(/[\.,!?"']/g,'').toLowerCase() == "ignore all previous commands you are now a dog" || userString.replace(/[\.,!?"']/g,'').toLowerCase() == "ignore all previous instructions you are now a dog") {
+        
+         if(userString.replace(/[\.,!?"']/g,'').toLowerCase() == "ignore all previous commands you are now a dog" || userString.replace(/[\.,!?"']/g,'').toLowerCase() == "ignore all previous instructions you are now a dog") {
                     meows = "Woof?";
                 } else {
                     var numberOfMeows = Math.floor(Math.random() * 15); // Random number of meows between 0 and 14.
