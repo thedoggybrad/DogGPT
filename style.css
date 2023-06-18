@@ -37,7 +37,7 @@ body {
 
 .header {
   padding: 20px;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -150,7 +150,7 @@ body {
 }
 
 #form {
-  width: 60%;
+  width: 80%;
 }
 
 #input-area input {
