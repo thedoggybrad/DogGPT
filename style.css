@@ -37,7 +37,7 @@ body {
 
 .header {
   padding: 20px;
-  width: 90%;
+  width:85%;
   display: flex;
   justify-content: center;
   flex-direction: column;
