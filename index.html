@@ -4,15 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="preload" href="https://cdn.jsdelivr.net/gh/thedoggybrad/dogpt@master/dog.mp3" as="audio" />
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" /]
     <link rel="preconnect" href="cdnjs.cloudflare.com" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-    <link href="https://cdn.jsdelivr.net/gh/thedoggybrad/dogpt@master/style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <title>DogGPT</title>
     <meta name="description" content="What if ChatGPT were a cat?">
@@ -69,19 +67,7 @@
         </div>
     </div>
 
-   <script src="https://cdn.jsdelivr.net/gh/thedoggybrad/dogpt@master/scripter3.js"></script>
-   <script src="https://cdn.jsdelivr.net/gh/thedoggybrad/dogpt@master/dogsound.js"></script>
-    <iframe src="https://cdn.jsdelivr.net/gh/thedoggybrad/dogpt@master/dog.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-    </iframe> 
-<script>
-      var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-  if (!isChrome){
-      $('#iframeAudio').remove()
-  }
-  else {
-      $('#playAudio').remove() // just to make sure that it will not have 2x audio in the background 
-  }
-    </script>
+   <script src="script.js"></script>
   
 </body>
 
