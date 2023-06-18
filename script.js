@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function() {
           if (currentWord < currentLineText.length) {
             currentWord += Math.floor(Math.random() * 10) + 5; // Return between 5 and 15 characters
             newBubble3.innerHTML = currentLineText.slice(0, currentWord) + "█"; // While typing, end the string with a block character
-          } else {
+          } else { 
             newBubble3.innerHTML = currentLineText; // When finished, put the entire response in the bubble without the block character
             clearInterval(singleLineLoop);
             form.scrollIntoView();
