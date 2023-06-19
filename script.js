@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const sendBtn = document.querySelector(".fa-paper-plane");
   const form = document.getElementById('form');
   const infoBtn = document.getElementById('infoBtn');
-  let userMeowed = false;
 
   function handleSubmit(event) {
     event.preventDefault(); // Prevent refresh on form submission
