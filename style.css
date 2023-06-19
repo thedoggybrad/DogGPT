@@ -61,7 +61,7 @@ body {
 }
 
 #chat {
-  width: 95%;
+  width: 98%;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
@@ -75,7 +75,7 @@ body {
 }
 
 .chat-bubble-container {
-  width: 95%;
+  width: 98%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -116,7 +116,7 @@ body {
 .chat-gpt-bubble {
   align-self: flex-start;
   color: #d1d5db;
-  width: 70%;
+  width: 75%;
 }
 
 .wouter-bubble {
