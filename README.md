@@ -1,4 +1,5 @@
 <img src="https://thedoggybrad.github.io/dogpt/images/avatar.png" width="64" height="64">
+
 # DogGPT
 ChatGPT is great and even passes a lot of exams worldwide. But ChatGPT is boring.
 So, I want a dog to answer my questions. So here is DogGPT.
