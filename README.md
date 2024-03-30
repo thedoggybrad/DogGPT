@@ -11,7 +11,7 @@ Try DogGPT [thedoggybrad.github.io/dogpt/](https://thedoggybrad.github.io/dogpt/
 Enter the doggy-verse and experience the behavior and answer of our super smart AI-powered dog.
 
 ## What is this?
-The "DogGPT' is a fork of the popular "CatGPT". After forking, I changed all the references to a cat to a dog. Then, I introduced and made some improvements to it.
+The "DogGPT" is a fork of the popular "CatGPT". After forking, I changed all the references to a cat to a dog. Then, I introduced and made some improvements to it.
 
 ## Why this is created?
 I made this site just for fun, by forking "CatGPT". I was just thinking on what will happen if I change all references to a dog. And, this is the result.
