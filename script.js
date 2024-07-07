@@ -90,13 +90,13 @@ document.addEventListener("DOMContentLoaded", function() {
   function handleInfoClick() {
     // Create a chat-bubble-container
     let newBubble3Container = document.createElement("div");
-    newBubble3Container.classList.add("chat-bubble-container", "wouter-bubble-container");
+    newBubble3Container.classList.add("chat-bubble-container", "thedoggybrad-bubble-container");
     newBubble3Container.innerHTML = '<div class="profile-picture"><img src="images/thedoggybrad.jpeg" height="100%" /></div>';
 
     function createLine(i) { // Create each line separately, one at a time
       if (i < infoText.length) { // Check if the line exists
         let newBubble3 = document.createElement("div");
-        newBubble3.classList.add("chat-bubble", "wouter-bubble");
+        newBubble3.classList.add("chat-bubble", "thedoggybrad-bubble");
         let currentLineText = infoText[i];
         let currentWord = 0;
         let singleLineLoop = setInterval(() => { // Loop over the words to simulate typing behavior
