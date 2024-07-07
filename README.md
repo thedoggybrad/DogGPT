@@ -11,6 +11,7 @@ Then, ask some questions to the dog and make sure to enjoy your irritation.
 Try DogGPT [thedoggybrad.github.io/dogpt/](https://thedoggybrad.github.io/dogpt/)
 <br>
 Enter the doggy-verse and experience the behavior and answer of our super smart AI-powered dog.
+<br>
 ![screenshot](https://github.com/thedoggybrad/dogpt/assets/94173621/aa0e6439-e3a2-4ae1-b452-e405a8797aab)
 
 ## What is this?
